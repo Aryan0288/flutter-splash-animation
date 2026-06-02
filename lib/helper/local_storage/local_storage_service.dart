@@ -1,6 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// LocalStorageService handles lightweight data persistence
+/// LocalStorageService handles lightweight helper persistence
 /// such as caching the user's wallet balance.
 class LocalStorageService {
   static const String _keyBalance = 'blinkit_wallet_balance';

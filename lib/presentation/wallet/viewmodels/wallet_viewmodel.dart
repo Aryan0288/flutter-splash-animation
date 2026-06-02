@@ -1,6 +1,6 @@
+import 'package:blinkit_money_wallet/helper/repositories/wallet_repository.dart';
+import 'package:blinkit_money_wallet/presentation/wallet/models/wallet_feature_model.dart';
 import 'package:flutter/foundation.dart';
-import '../data/models/wallet_feature_model.dart';
-import '../data/repositories/wallet_repository.dart';
 
 /// WalletViewModel encapsulates business logic for the digital wallet.
 /// It reactive-drives state changes to the UI views via ChangeNotifier.

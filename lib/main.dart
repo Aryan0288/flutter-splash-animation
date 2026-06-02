@@ -1,15 +1,15 @@
+import 'package:blinkit_money_wallet/helper/local_storage/local_storage_service.dart';
+import 'package:blinkit_money_wallet/helper/repositories/wallet_repository_impl.dart';
+import 'package:blinkit_money_wallet/presentation/wallet/viewmodels/wallet_viewmodel.dart';
+import 'package:blinkit_money_wallet/presentation/wallet/views/wallet_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import 'core/theme/app_theme.dart';
-import 'data/repositories/wallet_repository_impl.dart';
-import 'data/services/local_storage_service.dart';
-import 'viewmodels/wallet_viewmodel.dart';
-import 'views/wallet_screen.dart';
 
 void main() async {
-  // Ensure framework services are initialized prior to loading preferences
+  // Ensure framework local_storage are initialized prior to loading preferences
   WidgetsFlutterBinding.ensureInitialized();
 
   // Set system UI configurations for immersive feel

@@ -1,6 +1,6 @@
 import 'dart:async';
+import 'package:blinkit_money_wallet/core/constants/animation_constants.dart';
 import 'package:flutter/foundation.dart';
-import '../utils/animation_constants.dart';
 
 /// WalletAnimationViewModel orchestrates the sequential staged timeline events
 /// and visibility flags for the wallet landing page view.

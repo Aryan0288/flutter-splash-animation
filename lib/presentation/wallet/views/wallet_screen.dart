@@ -1,16 +1,16 @@
 import 'dart:math' as math;
+import 'package:blinkit_money_wallet/core/constants/app_strings.dart';
+import 'package:blinkit_money_wallet/core/theme/app_colors.dart';
+import 'package:blinkit_money_wallet/presentation/wallet/views/widgets/animated_cta_button.dart';
+import 'package:blinkit_money_wallet/presentation/wallet/views/widgets/feature_cards_section.dart';
+import 'package:blinkit_money_wallet/presentation/wallet/views/widgets/gift_card_section.dart';
+import 'package:blinkit_money_wallet/presentation/wallet/views/widgets/wallet_footer_widget.dart';
+import 'package:blinkit_money_wallet/presentation/wallet/views/widgets/wallet_header_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import '../core/constants/app_strings.dart';
-import '../core/theme/app_colors.dart';
 import '../viewmodels/wallet_animation_viewmodel.dart';
 import '../viewmodels/wallet_viewmodel.dart';
-import '../widgets/animated_cta_button.dart';
-import '../widgets/feature_cards_section.dart';
-import '../widgets/gift_card_section.dart';
-import '../widgets/wallet_footer_widget.dart';
-import '../widgets/wallet_header_widget.dart';
 
 class WalletScreen extends StatefulWidget {
   const WalletScreen({Key? key}) : super(key: key);

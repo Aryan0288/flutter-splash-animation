@@ -1,7 +1,7 @@
+import 'package:blinkit_money_wallet/presentation/wallet/viewmodels/wallet_animation_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import '../viewmodels/wallet_animation_viewmodel.dart';
 import 'animated_fade_slide_wrapper.dart';
 import 'confetti_overlay_widget.dart';
 

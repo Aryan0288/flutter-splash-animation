@@ -1,6 +1,6 @@
+import 'package:blinkit_money_wallet/presentation/wallet/viewmodels/wallet_animation_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../viewmodels/wallet_animation_viewmodel.dart';
 
 class ConfettiOverlayWidget extends StatelessWidget {
   const ConfettiOverlayWidget({Key? key}) : super(key: key);

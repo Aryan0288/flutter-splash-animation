@@ -1,7 +1,7 @@
+import 'package:blinkit_money_wallet/core/constants/app_strings.dart';
+import 'package:blinkit_money_wallet/presentation/wallet/viewmodels/wallet_animation_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../core/constants/app_strings.dart';
-import '../viewmodels/wallet_animation_viewmodel.dart';
 import 'animated_fade_slide_wrapper.dart';
 import 'animated_feature_card.dart';
 
